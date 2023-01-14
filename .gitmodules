@@ -1,0 +1,6 @@
+[submodule "label-studio-ml-backend"]
+	path = label-studio-ml-backend
+	url = https://github.com/heartexlabs/label-studio-ml-backend
+[submodule "yolov7"]
+	path = yolov7
+	url = https://github.com/WongKinYiu/yolov7.git
