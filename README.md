@@ -27,10 +27,15 @@ pip install redis rq  # additional libraries for the backend
 
 ## Running backend
 ```shell
-label-studio-ml init minecraft_copilot --script ./main.py --force
-label-studio-ml start minecraft_copilot
+label-studio-ml init ml_backend --script ./main.py --force
+label-studio-ml start ml_backend
 ```
 The ML backend server becomes available at http://localhost:9090
+
+You can also specify port for the webserver
+```shell
+label-studio-ml start ml_backend --port 8080 
+```
 
 ## Connecting to ML backend
 Add an ML backend using the Label Studio UI
